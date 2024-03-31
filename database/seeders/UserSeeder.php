@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -15,8 +16,8 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Code with Dary',
             'email' => 'info@codewithdary.com',
-            'password' => ''
+            'password' => '123',
 
-        ])
+        ]);
     }
 }
